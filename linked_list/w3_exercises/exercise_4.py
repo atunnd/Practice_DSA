@@ -1,8 +1,8 @@
 '''
 Problem: Write a Python program to access a specific item in a singly linked list using index value.
-Solution: Using a counter variable initialized with 0 and loop through the linked list. Increase the counter
+My solution: Using a counter variable initialized with 0 and loop through the linked list. Increase the counter
           for every node until it reaches the index value. Otherwise, return -1 if the given index value is out
-          of the range. 
+          of the range. Remember to check the list is whether empty or not at first.
 Test case:
 1. Linkedlist: (), Index: 5 => -1 (Pass)
 2. Linkedlist: (1) -> (2) -> (3), Index: 3 => -1 (Pass)
